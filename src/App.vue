@@ -8,10 +8,10 @@
             <input type="search" class="search">
             <button class="search-btn"> </button>
           </label>
-          <router-link to="/">Home</router-link>
-          <router-link to="/About">About US</router-link>
-          <router-link to="/Contacts">Contacts</router-link>
-          <router-link to="Service">Service</router-link>
+          <router-link to="/" class="nav-link">Home</router-link>
+          <router-link to="/About" class="nav-link">About US</router-link>
+          <router-link to="/Contacts" class="nav-link">Contacts</router-link>
+          <router-link to="Service" class="nav-link">Service</router-link>
         </div>
       </div>
     </div>
@@ -33,16 +33,16 @@
   align-self: center;
   text-align: center;
 }
-a{
+.nav-link{
   font-size: 32px;
   font-weight: bolder;
   text-decoration: none;
   color: #fff;
   margin-left: 60px;
 }
-a:hover,
-a:active,
-a:focus{
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus{
   border-bottom: 5px  solid rgba(255,255,255,0.6);
   border-radius: 5px;
   outline: none;
