@@ -49,7 +49,7 @@ export default {
     height: 24px;
     padding-right: 20px;
     position: relative;
-    top: 6px;
+    top: 4px;
   }
   .hrefs{
     padding-top: 60px;
@@ -63,7 +63,7 @@ export default {
     font-size: 26px;
   }
   span{
-    font-size: 34px;
+    font-size: 30px;
   }
   p{
     font-size:16px;

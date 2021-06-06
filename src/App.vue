@@ -9,7 +9,7 @@
             <button class="search-btn"> </button>
           </label>
           <router-link to="/" class="nav-link">Home</router-link>
-          <router-link to="/About" class="nav-link">About US</router-link>
+          <router-link to="/About" class="nav-link">About Us</router-link>
           <router-link to="/Contacts" class="nav-link">Contacts</router-link>
           <router-link to="Service" class="nav-link">Service</router-link>
         </div>
