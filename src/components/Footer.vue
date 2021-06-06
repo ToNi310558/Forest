@@ -7,9 +7,9 @@
     </div>
     <div class="hrefs">
       <router-link to="/" class="yoursite">yoursite</router-link>
-      <router-link to="/"><img src="../assets/image/facebook.png">your account</router-link>
-      <router-link to="/"><img src="../assets/image/insta.png">your account</router-link>
-      <router-link to="/"><img src="../assets/image/twitter.png">your account</router-link>
+      <router-link to="/"><img src="../assets/image/facebook.png" alt="facebook">your account</router-link>
+      <router-link to="/"><img src="../assets/image/insta.png" alt="instagram">your account</router-link>
+      <router-link to="/"><img src="../assets/image/twitter.png" alt="twitter">your account</router-link>
     </div>
   </div>
 </template>
@@ -45,8 +45,8 @@ export default {
     border-bottom: 1px solid #ababab;
   }
   img{
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     padding-right: 20px;
     position: relative;
     top: 4px;
