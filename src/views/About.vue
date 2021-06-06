@@ -63,4 +63,32 @@ export default {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
   }
+  @media only screen and (min-width: 1279px) and (max-width: 1439px){
+    .about{
+      margin-bottom: 226px;
+    }
+    h2{
+      font-size: 46px;
+      margin-bottom: 50px;
+    }
+    .about-info{
+      width: 540px;
+      font-size: 20px;
+      margin-top: 200px;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1279px){
+    .about{
+      margin-bottom: 280px;
+    }
+    h2{
+      font-size: 32px;
+      margin-bottom: 120px;
+    }
+    .about-info{
+      width: 450px;
+      font-size: 22px;
+      margin-top: 180px;
+    }
+  }
 </style>

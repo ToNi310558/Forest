@@ -22,4 +22,16 @@ export default {
   font-weight: bolder;
   margin: 196px 0;
 }
+@media only screen and (min-width: 1279px) and (max-width: 1439px){
+  .cont{
+    font-size: 46px;
+    margin: 198px 0;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .cont{
+    font-size: 38px;
+    margin: 188px 0;
+  }
+}
 </style>

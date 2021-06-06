@@ -67,11 +67,84 @@ export default {
   }
   p{
     font-size:16px;
-    color: #303336;
+    color: black;
     font-weight: bolder;
     line-height: 8px;
   }
   .info{
     padding-right: 80px;
+  }
+  @media only screen and (min-width: 1279px) and (max-width: 1439px){
+    .footer{
+      padding-top: 20px;
+    }
+    .yoursite{
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    a{
+      margin-left: 30px;
+      padding: 0 10px;
+      font-size: 16px;
+    }
+    img{
+      width: 16px;
+      height: 16px;
+      padding-right: 16px;
+      top: 3px;
+    }
+    .hrefs{
+      padding-top: 52px;
+      padding-bottom: 40px;
+      height: 40px;
+    }
+    h3{
+      font-size: 21px;
+    }
+    span{
+      font-size: 24px;
+    }
+    p{
+      font-size: 14px;
+      line-height: 7px;
+    }
+    .info{
+      padding-right: 40px;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1279px){
+    .yoursite{
+      font-size: 14px;
+      margin-right: 8px;
+    }
+    a{
+      margin-left: 36px;
+      padding: 0 8px;
+      font-size: 16px;
+    }
+    img{
+      width: 12px;
+      height: 12px;
+      padding-right: 16px;
+      top: 4px;
+    }
+    .hrefs{
+      padding-top: 40px;
+      padding-bottom: 52px;
+      height: 40px;
+    }
+    h3{
+      font-size: 18px;
+    }
+    span{
+      font-size: 18px;
+    }
+    p{
+      font-size:14px;
+      line-height: 6px;
+    }
+    .info{
+      padding-right: 2px;
+    }
   }
 </style>

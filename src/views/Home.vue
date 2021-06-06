@@ -82,4 +82,55 @@ export default {
     box-shadow: 0 0 0 2px #ababab inset;
     outline: none;
   }
+  @media only screen and (min-width: 1279px) and (max-width: 1439px) {
+    .main{
+      width: 560px;
+      padding-right: 64px;
+    }
+    .title{
+      font-size: 56px;
+      top: 160px;
+      right: 150px;
+    }
+    .heading{
+      font-size: 62px;
+    }
+    .lorem{
+      font-size: 22px;
+      width: 520px;
+      margin: 40px auto 40px auto;
+    }
+    .learnmore{
+      margin: 50px 0 100px 0 ;
+      width: 140px;
+      height: 26px;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1279px){
+    .main{
+      width: 500px;
+      padding-right: 54px;
+    }
+    .title{
+      font-size: 52px;
+      top: 140px;
+      right: 140px;
+    }
+    .heading{
+      font-size: 54px;
+    }
+    .lorem{
+      font-size: 20px;
+      width: 460px;
+      margin: 30px auto 30px auto;
+    }
+    .learnmore{
+      margin: 50px 0 120px 0 ;
+      width: 120px;
+      height: 22px;
+      font-size: 10px;
+    }
+  }
 </style>
