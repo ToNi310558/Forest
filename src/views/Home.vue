@@ -8,7 +8,10 @@
         <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit
           sed to eiusmod tempor incididunt ut labore et dolore.</p>
         <h1 class="heading">Preserve the Forest, Protect the Future</h1>
-        <button class="learnmore">Learn More</button>
+        <router-link to="/About">
+          <button class="learnmore">Learn More</button>
+        </router-link>
+
       </div>
     </main>
     <Footer/>
