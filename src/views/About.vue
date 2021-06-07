@@ -7,6 +7,10 @@
           iusto magni nemo non nostrum quasi qui quisquam reiciendis repellendus temporibus voluptates voluptatum. A ab
           accusantium adipisci amet asperiores aspernatur assumenda autem beatae commodi consectetur cumque cupiditate
           dolores doloribus ducimus eligendi enim ex exercitationem facilis fugiat harum illo itaque.</p>
+        <p class="about-info ai-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem eveniet, exercitationem fugit, ipsa ipsam
+          iusto magni nemo non nostrum quasi qui quisquam reiciendis repellendus temporibus voluptates voluptatum. A ab
+          accusantium adipisci amet asperiores aspernatur assumenda autem beatae commodi consectetur cumque cupiditate
+          dolores doloribus ducimus eligendi enim ex exercitationem facilis fugiat harum illo itaque.</p>
       </div>
   </div>
     <Footer/>
@@ -25,7 +29,7 @@ export default {
   .about{
     text-align: center;
     color: white;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
   }
   h2{
     text-transform: uppercase;
@@ -36,11 +40,12 @@ export default {
   .about-info{
     width: 700px;
     font-size: 24px;
-    margin-top: 180px;
   }
-  .flex{
+  .flex-t{
     display: flex;
     justify-content: space-around;
+    height: 100%;
+    padding-bottom: 10px;
   }
   .ai-black{
     color: black;
@@ -136,7 +141,7 @@ export default {
     }
     .ai-black{
       color: black;
-      background: rgba(255, 255, 255, 0.7);
+      background: rgba(255, 255, 255, 0.5);
       border-radius: 20px;
     }
   }
