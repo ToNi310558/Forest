@@ -29,7 +29,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
+  @shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+    0 -1px 1px #000;
   .main-home{
     color: white;
     display: flex;
@@ -82,7 +86,7 @@ export default {
     box-shadow: 0 0 0 2px #ababab inset;
     outline: none;
   }
-  @media only screen and (min-width: 1279px) and (max-width: 1439px) {
+  @media all and (min-width: 1279px) and (max-width: 1439px) {
     .main{
       width: 560px;
       padding-right: 64px;
@@ -108,7 +112,7 @@ export default {
     }
   }
 
-  @media screen and (min-width: 1024px) and (max-width: 1279px){
+  @media all and (min-width: 1024px) and (max-width: 1279px){
     .main{
       width: 500px;
       padding-right: 54px;
@@ -133,7 +137,7 @@ export default {
       font-size: 10px;
     }
   }
-  @media screen and (min-width: 800px) and (max-width: 1023px){
+  @media all and (min-width: 800px) and (max-width: 1023px){
     .main{
       width: 430px;
       padding-right: 45px;
@@ -158,7 +162,7 @@ export default {
       font-size: 14px;
     }
   }
-  @media screen and (min-width: 640px) and (max-width: 799px){
+  @media all and (min-width: 640px) and (max-width: 799px){
     .main{
       width: 360px;
       padding-right: 20px;
@@ -181,6 +185,39 @@ export default {
       width: 100px;
       height: 22px;
       font-size: 11px;
+    }
+  }
+  @media all and (max-width: 640px){
+    .main-home{
+    display: block;
+      text-align: center;
+    }
+    .main{
+      text-align: center;
+      width: auto;
+      padding-right: 0;
+      margin: 0;
+    }
+    .title{
+      display: none;
+    }
+    .heading{
+      font-size: 36px;
+      margin: 0 auto;
+      text-shadow: @shadow;
+      width: 340px;
+    }
+    .lorem{
+      font-size: 16px;
+      width: 300px;
+      margin: 50px auto 10px auto;
+      text-shadow: @shadow;
+    }
+    .learnmore{
+      margin: 30px 0 60px 0 ;
+      width: 140px;
+      height: 32px;
+      font-size: 15px;
     }
   }
 </style>

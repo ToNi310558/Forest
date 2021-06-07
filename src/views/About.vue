@@ -2,23 +2,11 @@
   <div>
     <div class="about">
     <h2>Your content</h2>
-      <div class="flex">
+      <div class="flex-t">
         <p class="about-info ai-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem eveniet, exercitationem fugit, ipsa ipsam
           iusto magni nemo non nostrum quasi qui quisquam reiciendis repellendus temporibus voluptates voluptatum. A ab
           accusantium adipisci amet asperiores aspernatur assumenda autem beatae commodi consectetur cumque cupiditate
-          dolores doloribus ducimus eligendi enim ex exercitationem facilis fugiat harum illo itaque, libero modi mollitia
-          non nostrum odio officia pariatur perspiciatis reprehenderit repudiandae sit soluta sunt tempore temporibus vitae
-          voluptas! Facere facilis iusto quo repellendus sunt. Earum molestiae repellendus vel.
-          Commodi dolores eaque facere facilis molestias placeat, quaerat saepe sint sunt voluptatibus! Eaque et ipsum odio
-          praesentium voluptates?</p>
-        <p class="about-info ai-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem eveniet, exercitationem fugit, ipsa ipsam
-          iusto magni nemo non nostrum quasi qui quisquam reiciendis repellendus temporibus voluptates voluptatum. A ab
-          accusantium adipisci amet asperiores aspernatur assumenda autem beatae commodi consectetur cumque cupiditate
-          dolores doloribus ducimus eligendi enim ex exercitationem facilis fugiat harum illo itaque, libero modi mollitia
-          non nostrum odio officia pariatur perspiciatis reprehenderit repudiandae sit soluta sunt tempore temporibus vitae
-          voluptas! Facere facilis iusto quo repellendus sunt. Earum molestiae repellendus vel.
-          Commodi dolores eaque facere facilis molestias placeat, quaerat saepe sint sunt voluptatibus! Eaque et ipsum odio
-          praesentium voluptates?</p>
+          dolores doloribus ducimus eligendi enim ex exercitationem facilis fugiat harum illo itaque.</p>
       </div>
   </div>
     <Footer/>
@@ -33,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
   .about{
     text-align: center;
     color: white;
@@ -63,7 +51,7 @@ export default {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
   }
-  @media only screen and (min-width: 1279px) and (max-width: 1439px){
+  @media all and (min-width: 1279px) and (max-width: 1439px){
     .about{
       margin-bottom: 226px;
     }
@@ -77,7 +65,7 @@ export default {
       margin-top: 200px;
     }
   }
-  @media screen and (min-width: 1024px) and (max-width: 1279px){
+  @media all and (min-width: 1024px) and (max-width: 1279px){
     .about{
       margin-bottom: 280px;
     }
@@ -91,7 +79,7 @@ export default {
       margin-top: 180px;
     }
   }
-  @media screen and (min-width: 800px) and (max-width: 1023px){
+  @media all and (min-width: 800px) and (max-width: 1023px){
     .about{
       margin-bottom: 240px;
     }
@@ -105,7 +93,7 @@ export default {
       margin-top: 160px;
     }
   }
-  @media screen and (min-width: 640px) and (max-width: 799px){
+  @media all and (min-width: 640px) and (max-width: 799px){
     .about{
       margin-bottom: 220px;
     }
@@ -117,6 +105,39 @@ export default {
       width: 310px;
       font-size: 17px;
       margin-top: 130px;
+    }
+  }
+  @media all and (max-width: 640px){
+    .about{
+      text-align: center;
+      color: white;
+      margin-bottom: 0;
+    }
+    h2{
+      text-transform: uppercase;
+      font-size: 28px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      text-shadow:  1px 0 1px #000,
+      0 1px 1px #000,
+      -1px 0 1px #000,
+        0 -1px 1px #000;
+    }
+    .about-info{
+      width: 90%;
+      font-size: 18px;
+      margin: 0 auto;
+      padding-bottom: 10px;
+    }
+    .flex-t{
+      display: block;
+      height: 100%;
+      padding-bottom: 30px;
+    }
+    .ai-black{
+      color: black;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 20px;
     }
   }
 </style>

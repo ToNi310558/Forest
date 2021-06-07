@@ -20,7 +20,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="less">
+  @shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+  0 -1px 1px #000;
   .footer{
     display: flex;
     justify-content: space-around;
@@ -74,7 +78,7 @@ export default {
   .info{
     padding-right: 80px;
   }
-  @media only screen and (min-width: 1279px) and (max-width: 1439px){
+  @media all and (min-width: 1279px) and (max-width: 1439px){
     .footer{
       padding-top: 20px;
     }
@@ -112,7 +116,7 @@ export default {
       padding-right: 40px;
     }
   }
-  @media screen and (min-width: 1024px) and (max-width: 1279px){
+  @media all and (min-width: 1024px) and (max-width: 1279px){
     .yoursite{
       font-size: 14px;
       margin-right: 8px;
@@ -147,7 +151,7 @@ export default {
       padding-right: 2px;
     }
   }
-  @media screen and (min-width: 800px) and (max-width: 1023px){
+  @media all and (min-width: 800px) and (max-width: 1023px){
     .yoursite{
       font-size: 15px;
       margin-right: 5px;
@@ -181,7 +185,7 @@ export default {
       padding-right: 20px;
     }
   }
-  @media screen and (min-width: 640px) and (max-width: 799px){
+  @media all and (min-width: 640px) and (max-width: 799px){
     .yoursite{
       font-size: 12px;
       margin-right: 4px;
@@ -213,6 +217,63 @@ export default {
     }
     .info{
       padding-right: 10px;
+    }
+  }
+  @media all and (max-width: 640px){
+    .footer{
+      display: block;
+
+    }
+    .yoursite{
+      text-align: center;
+      display: block;
+      font-size: 24px;
+      margin: 0 0 20px 0;
+      text-shadow: @shadow;
+
+    }
+    a{
+      padding: 0;
+      font-size: 18px;
+      text-align: center;
+      display: block;
+      margin: 0;
+      text-shadow: @shadow;
+    }
+    img{
+      width: 15px;
+      height: 15px;
+      padding-right: 10px;
+      position: relative;
+      top: 4px;
+    }
+    .hrefs{
+      padding-top: 15px;
+      padding-bottom: 80px;
+      height: 40px;
+    }
+    h3{
+      margin: 0;
+      padding: 0;
+      font-weight: bolder;
+      font-size: 26px;
+      text-shadow: @shadow;
+    }
+    span{
+      font-size: 30px;
+      text-shadow: @shadow;
+    }
+    p{
+      font-size:16px;
+      color:white;
+      font-weight: bolder;
+      line-height: 8px;
+      text-shadow: @shadow;
+    }
+    .info{
+      padding: 0;
+      text-align: center;
+      color: white;
     }
   }
 </style>

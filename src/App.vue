@@ -20,6 +20,10 @@
 </template>
 
 <style lang="less">
+  @shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+    0 -1px 1px #000;
   //media for 1440px+
 #app{
     background: url(../src/assets/image/Forest.jpg) no-repeat center center fixed;
@@ -94,7 +98,7 @@
   outline: none;
 }
 //media for 1280-1440px
-@media screen and (min-width: 1280px) and (max-width: 1440px) {
+@media all and (min-width: 1280px) and (max-width: 1440px) {
   .logo {
     width: 93px;
     height: 67px;
@@ -132,7 +136,7 @@
   }
 }
   //media for 1024-1280px
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media all and (min-width: 1024px) and (max-width: 1279px) {
   .logo{
     width: 80px;
     height: 58px;
@@ -163,9 +167,8 @@
     top: -3px;
   }
 }
-  //еще не сделал
   //media for 800-1024px
-  @media screen and (min-width: 800px) and (max-width: 1023px){
+  @media all and (min-width: 800px) and (max-width: 1023px){
     .logo{
       width: 64px;
       height: 50px;
@@ -196,7 +199,7 @@
     }
   }
   //media for 640-800px
-  @media screen and (min-width: 640px) and (max-width: 799px){
+  @media all and (min-width: 640px) and (max-width: 799px){
     .logo{
       width: 54px;
       height: 38px;
@@ -226,49 +229,89 @@
       top: -1px;
     }
   }
-  @media screen and (min-height: 650px){
+  @media all and (max-width: 640px) {
+    .logo{
+     display: none;
+    }
+    .flex{
+      justify-content: space-between;
+      height: 60px;
+      padding-top: 40px;
+    }
+    .nav-link{
+      font-size: 20px;
+      margin: 0;
+      text-align: center;
+      margin-right: 13px;
+      text-shadow: @shadow;
+    }
+    .container{
+      text-align: center;
+    }
+    .search{
+      border-radius: 10px;
+      width: 160px;
+      height: 22px;
+      bottom: 0;
+      position: static;
+      font-size: 16px;
+      padding-left: 0;
+      margin: 0 auto 20px auto;
+      display: block;
+      text-align: center;
+    }
+    .search-btn{
+      background-size: 18px 18px;
+      width: 26px;
+      height: 22px;
+      padding: 0;
+      right: -82px;
+      top: 0;
+    }
+  }
+  @media all and (min-height: 650px){
     #app{
       height: 700px;
     }
   }
-  @media screen and (min-height: 701px) {
+  @media all and (min-height: 701px) {
     #app {
       height: 740px;
     }
   }
-  @media screen and (min-height: 741px) {
+  @media all and (min-height: 741px) {
     #app {
       height: 770px;
     }
   }
-  @media screen and (min-height: 770px){
-#app{
-  height: 800px;
-}
+  @media all and (min-height: 770px){
+    #app{
+      height: 800px;
+    }
   }
-@media screen and (min-height: 800px){
-  #app{
-    height: 850px;
+  @media all and (min-height: 800px){
+    #app{
+      height: 850px;
+    }
   }
-}
-@media screen and (min-height: 850px){
-  #app{
-    height: 900px;
+  @media all and (min-height: 850px){
+    #app{
+      height: 900px;
+    }
   }
-}
-@media screen and (min-height: 900px){
-  #app{
-    height: 950px;
+  @media all and (min-height: 900px){
+    #app{
+      height: 950px;
+    }
   }
-}
-@media screen and (min-height: 950px) {
-  #app {
-    height: 1000px;
+  @media all and (min-height: 950px) {
+    #app {
+      height: 1000px;
+    }
   }
-}
-@media screen and (min-height: 1000px){
-  #app{
-    height: 1050px;
+  @media all and (min-height: 1000px){
+    #app{
+      height: 1050px;
+    }
   }
-}
 </style>
