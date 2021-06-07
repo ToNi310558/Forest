@@ -167,94 +167,78 @@
   //media for 800-1024px
   @media screen and (min-width: 800px) and (max-width: 1023px){
     .logo{
-      width: 133px;
-      height: 96px;
-      margin-right: 100px;
-    }
-    .flex{
-      height: 170px;
-    }
-    .nav-link{
-      font-size: 32px;
-      margin-left: 60px;
-    }
-    .search{
-      width: 180px;
-      height: 30px;
-      bottom: 5px;
-      font-size: 20px;
-      padding-left: 6px;
+      width: 64px;
+      height: 50px;
       margin-right: 50px;
     }
+    .flex{
+      height: 160px;
+    }
+    .nav-link{
+      font-size: 20px;
+      margin-left: 30px;
+    }
+    .search{
+      width: 100px;
+      height: 16px;
+      bottom: 3px;
+      font-size: 14px;
+      padding-left: 3px;
+      margin-right: 30px;
+    }
     .search-btn{
-      background-size: 25px 25px;
-      width: 32px;
-      height: 30px;
-      padding:0 25px;
-      right: 19px;
-      top: -12px;
+      background-size: 12px 12px;
+      width: 16px;
+      height: 16px;
+      padding:0 12px;
+      right: 23px;
+      top: -1px;
     }
   }
-  //media for 720-799px
-  @media screen and (min-width: 720px) and (max-width: 799px){
+  //media for 640-800px
+  @media screen and (min-width: 640px) and (max-width: 799px){
     .logo{
-      width: 133px;
-      height: 96px;
-      margin-right: 100px;
+      width: 54px;
+      height: 38px;
+      margin-right: 40px;
     }
     .flex{
-      height: 170px;
+      height: 150px;
     }
     .nav-link{
-      font-size: 32px;
-      margin-left: 60px;
+      font-size: 18px;
+      margin-left: 24px;
     }
     .search{
-      width: 180px;
-      height: 30px;
-      bottom: 5px;
-      font-size: 20px;
-      padding-left: 6px;
-      margin-right: 50px;
+      width: 90px;
+      height: 16px;
+      bottom: 3px;
+      font-size: 13px;
+      padding-left: 3px;
+      margin-right: 30px;
     }
     .search-btn{
-      background-size: 25px 25px;
-      width: 32px;
-      height: 30px;
-      padding:0 25px;
-      right: 19px;
-      top: -12px;
+      background-size: 12px 12px;
+      width: 15px;
+      height: 16px;
+      padding:0 12px;
+      right: 25px;
+      top: -1px;
     }
   }
-  //media for 640-720px
-  @media screen and (min-width: 640px) and (max-width: 719px){
-    .logo{
-      width: 133px;
-      height: 96px;
-      margin-right: 100px;
+  @media screen and (min-height: 650px){
+    #app{
+      height: 700px;
     }
-    .flex{
-      height: 170px;
+  }
+  @media screen and (min-height: 701px) {
+    #app {
+      height: 740px;
     }
-    .nav-link{
-      font-size: 32px;
-      margin-left: 60px;
-    }
-    .search{
-      width: 180px;
-      height: 30px;
-      bottom: 5px;
-      font-size: 20px;
-      padding-left: 6px;
-      margin-right: 50px;
-    }
-    .search-btn{
-      background-size: 25px 25px;
-      width: 32px;
-      height: 30px;
-      padding:0 25px;
-      right: 19px;
-      top: -12px;
+  }
+  @media screen and (min-height: 741px) {
+    #app {
+      height: 770px;
     }
   }
   @media screen and (min-height: 770px){

@@ -91,4 +91,32 @@ export default {
       margin-top: 180px;
     }
   }
+  @media screen and (min-width: 800px) and (max-width: 1023px){
+    .about{
+      margin-bottom: 240px;
+    }
+    h2{
+      font-size: 24px;
+      margin-bottom: 100px;
+    }
+    .about-info{
+      width: 370px;
+      font-size: 20px;
+      margin-top: 160px;
+    }
+  }
+  @media screen and (min-width: 640px) and (max-width: 799px){
+    .about{
+      margin-bottom: 220px;
+    }
+    h2{
+      font-size: 22px;
+      margin-bottom: 100px;
+    }
+    .about-info{
+      width: 310px;
+      font-size: 17px;
+      margin-top: 130px;
+    }
+  }
 </style>

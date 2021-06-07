@@ -32,5 +32,16 @@ export default {
     font-size: 38px;
     margin: 188px 0;
   }
+} @media screen and (min-width: 800px) and (max-width: 1023px){
+  .cont{
+    font-size: 34px;
+    margin: 186px 0;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 799px){
+  .cont{
+    font-size: 30px;
+    margin: 160px 0;
+  }
 }
 </style>

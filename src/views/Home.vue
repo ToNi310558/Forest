@@ -133,4 +133,54 @@ export default {
       font-size: 10px;
     }
   }
+  @media screen and (min-width: 800px) and (max-width: 1023px){
+    .main{
+      width: 430px;
+      padding-right: 45px;
+    }
+    .title{
+      font-size: 44px;
+      top: 120px;
+      right: 115px;
+    }
+    .heading{
+      font-size: 50px;
+    }
+    .lorem{
+      font-size: 18px;
+      width: 420px;
+      margin: 15px auto 50px auto;
+    }
+    .learnmore{
+      margin: 50px 0 110px 0 ;
+      width: 140px;
+      height: 24px;
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 640px) and (max-width: 799px){
+    .main{
+      width: 360px;
+      padding-right: 20px;
+    }
+    .title{
+      font-size: 34px;
+      top: 120px;
+      right: 100px;
+    }
+    .heading{
+      font-size: 40px;
+    }
+    .lorem{
+      font-size: 15px;
+      width: 340px;
+      margin: 14px auto 40px auto;
+    }
+    .learnmore{
+      margin: 50px 0 110px 0 ;
+      width: 100px;
+      height: 22px;
+      font-size: 11px;
+    }
+  }
 </style>

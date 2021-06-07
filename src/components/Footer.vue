@@ -147,4 +147,72 @@ export default {
       padding-right: 2px;
     }
   }
+  @media screen and (min-width: 800px) and (max-width: 1023px){
+    .yoursite{
+      font-size: 15px;
+      margin-right: 5px;
+    }
+    a{
+      margin-left: 20px;
+      padding: 0 7px;
+      font-size: 12px;
+    }
+    img{
+      width: 10px;
+      height: 10px;
+      top: 2px;
+    }
+    .hrefs{
+      padding-top: 40px;
+      padding-bottom: 10px;
+      height: 20px;
+    }
+    h3{
+      font-size: 16px;
+    }
+    span{
+      font-size: 18px;
+    }
+    p{
+      font-size:12px;
+      line-height: 6px;
+    }
+    .info{
+      padding-right: 20px;
+    }
+  }
+  @media screen and (min-width: 640px) and (max-width: 799px){
+    .yoursite{
+      font-size: 12px;
+      margin-right: 4px;
+    }
+    a{
+      margin-left: 12px;
+      padding: 0 6px;
+      font-size: 11px;
+    }
+    img{
+      width: 9px;
+      height: 9px;
+      top: 2px;
+    }
+    .hrefs{
+      padding-top: 34px;
+      padding-bottom: 10px;
+      height: 18px;
+    }
+    h3{
+      font-size: 12px;
+    }
+    span{
+      font-size: 14px;
+    }
+    p{
+      font-size: 10px;
+      line-height: 5px;
+    }
+    .info{
+      padding-right: 10px;
+    }
+  }
 </style>
